@@ -7,7 +7,7 @@
 		"react": "^17.0.2",
 		"react-dom": "^19.0.0",
 		"react-scripts": "^4.0.3",
-		"@cometchat-pro/chat": "3.0.11",
+		"@cometchat-pro/chat": "3.0.13",
 		"@emotion/react": "^11",
 		"dateformat": "^5.0.3",
 		"html-react-parser": "^1.4.5",
