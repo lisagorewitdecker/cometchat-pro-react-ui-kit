@@ -8,6 +8,7 @@ interface ContextMenuProps {
     ContextMenuStyle: MenuListStyle;
     onOptionClicked: (option: CometChatActionsIcon | CometChatActionsView) => void;
     placement: Placement;
+    parentClassName?: string;
 }
 export declare const CometChatContextMenu: (props: ContextMenuProps) => import("react/jsx-runtime").JSX.Element;
 export {};

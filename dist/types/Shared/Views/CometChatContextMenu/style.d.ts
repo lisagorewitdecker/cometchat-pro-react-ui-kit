@@ -3,7 +3,7 @@ import { CometChatTheme } from "@cometchat/uikit-resources";
 import { MenuListStyle } from "@cometchat/uikit-elements";
 export declare const contextMenuStyle: () => CSSProperties;
 export declare const topMenuStyle: () => CSSProperties;
-export declare const subMenuStyle: (showSubMenu: boolean, theme: CometChatTheme) => CSSProperties;
+export declare const subMenuStyle: (showSubMenu: boolean, theme: CometChatTheme, position?: 'bottom' | 'top') => CSSProperties;
 export declare const menuItemStyle: () => {
     background: string;
     padding: string;
