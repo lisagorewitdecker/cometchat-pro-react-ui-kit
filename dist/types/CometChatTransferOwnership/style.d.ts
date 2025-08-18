@@ -5,6 +5,7 @@ import { CSSProperties } from "react";
 type ButtonStyle = CSSProperties & {
     buttonIconTint?: string;
 };
+export declare function applyResponsiveDimensions(childSelector: string, parentSelector: string, transferOwnershipStyleObject: TransferOwnershipStyle | null): void;
 export declare function transferOwnershipStyle(transferOwnershipStyleObject: TransferOwnershipStyle | null, theme: CometChatTheme): CSSProperties;
 export declare function scopeLabelStyle(transferOwnershipStyleObject: TransferOwnershipStyle | null, theme: CometChatTheme, isRadioButton: boolean): LabelStyle;
 export declare function transferBtnStyle(transferOwnershipStyleObject: TransferOwnershipStyle | null, theme: CometChatTheme): ButtonStyle;
