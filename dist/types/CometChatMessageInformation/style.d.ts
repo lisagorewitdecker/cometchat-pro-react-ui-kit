@@ -14,7 +14,7 @@ export declare const dividerStyle: (theme: CometChatTheme) => {
     width: string;
     background: string | undefined;
 };
-export declare function receiptStyle(theme: CometChatTheme): ReceiptStyle;
+export declare function receiptStyle(theme: CometChatTheme, messageInformationStyle?: MessageInformationStyle): ReceiptStyle;
 export declare const MessageDateStyle: (dateSeparatorStyle: DateStyle | undefined, theme: CometChatTheme) => DateStyle;
 export declare const defaultDateSeparatorStyle: {
     background: string;
