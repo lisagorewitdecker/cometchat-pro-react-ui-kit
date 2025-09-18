@@ -276,6 +276,9 @@ interface IConversationsProps {
     textFormatters?: CometChatTextFormatter[];
 }
 export type Action = {
+    type: "addConversationOfTheGroupAtTheTop";
+    conversation: CometChat.Conversation;
+} | {
     type: "appendConversations";
     conversations: CometChat.Conversation[];
     removeOldConversation?: boolean;
