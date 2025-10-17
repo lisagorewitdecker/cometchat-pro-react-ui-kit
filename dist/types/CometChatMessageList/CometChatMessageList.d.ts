@@ -1,7 +1,7 @@
 import "@cometchat/uikit-elements";
 import { AvatarStyle, BackdropStyle, DateStyle, EmojiKeyboardStyle } from "@cometchat/uikit-elements";
 import { CometChatMessageTemplate, DatePatterns, MessageListAlignment, TimestampAlignment } from "@cometchat/uikit-resources";
-import { CometChatTextFormatter, MessageInformationConfiguration, MessageListStyle, ReactionsConfiguration } from "@cometchat/uikit-shared";
+import { CometChatTextFormatter, MessageInformationConfiguration, MessageListStyle, NewMessageIndicatorStyle, ReactionsConfiguration } from "@cometchat/uikit-shared";
 interface IMessageListProps {
     parentMessageId?: number;
     user?: CometChat.User;
@@ -35,6 +35,8 @@ interface IMessageListProps {
     templates?: CometChatMessageTemplate[];
     messagesRequestBuilder?: CometChat.MessagesRequestBuilder;
     newMessageIndicatorText?: string;
+    newMessageIndicatorIconUrl?: string;
+    newMessageIndicatorStyle?: NewMessageIndicatorStyle;
     scrollToBottomOnNewMessages?: boolean;
     thresholdValue?: number;
     onThreadRepliesClick?: Function;

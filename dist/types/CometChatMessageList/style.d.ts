@@ -1,13 +1,13 @@
 import { AvatarStyle, DateStyle, LabelStyle, ListItemStyle, LoaderStyle, ReceiptStyle } from "@cometchat/uikit-elements";
 import { CometChatTheme, MessageBubbleAlignment, MessageListAlignment } from "@cometchat/uikit-resources";
-import { BaseStyle, ListStyle, MessageListStyle, ReactionInfoConfiguration, ReactionInfoStyle, ReactionListStyle, ReactionsStyle } from "@cometchat/uikit-shared";
+import { BaseStyle, ListStyle, MessageListStyle, NewMessageIndicatorStyle, ReactionInfoConfiguration, ReactionInfoStyle, ReactionListStyle, ReactionsStyle } from "@cometchat/uikit-shared";
 import { CSSProperties } from "react";
 /**
  * Generates the style object for the new unread-messages view, visible when the user is not at the bottom and receives a new message
  *
  * @returns {CSSProperties}
  */
-export declare const newMessageIndicatorStyle: () => CSSProperties;
+export declare const newMessagesIndicatorStyle: () => CSSProperties;
 /**
  * Generates the style object for the custom header view, visible on the top of the message list
  *
@@ -52,7 +52,7 @@ export declare const messageThreadViewStyle: (message: CometChat.BaseMessage, th
  * @param {CometChatTheme} theme
  * @returns {CSSProperties}
  */
-export declare const newMessageTextStyleStyle: (theme: CometChatTheme) => CSSProperties;
+export declare const newMessageTextStyleStyle: (theme: CometChatTheme, newMessageIndicatorStyle?: NewMessageIndicatorStyle) => CSSProperties;
 /**
  * Default style object for CometChatMessageBubble component which renders all types of supported message types.
  *
